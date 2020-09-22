@@ -8,6 +8,7 @@
       <%= render 'fields', f: f %>
 
       <%= f.submit 'Atualizar', class: 'btn btn-primary' %>
+      <%= link_to 'Voltar', user_contacts_path(current_user), class: 'btn btn-primary' %>
     <% end %>
   </div>
 </div>
